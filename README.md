@@ -1,12 +1,57 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# MiAppi - Taller React + vite con tailwindcss
 
-Currently, two official plugins are available:
+## Realizado por:
+**Cristian Camilo Vanegas Gonzales**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripción del Dashboard
+MiAppi es una aplicación en React que se utilizó Context API para manejar el estado global de los usuarios. Permite consumir una API externa de usuarios y mostrarlos dinámicamente en una interfaz básico con una barra de búsqueda.
 
-## Expanding the ESLint configuration
+## Características
+- Uso de Context API para manejar el estado global.
+- Consumo de API externa (`https://jsonplaceholder.typicode.com/users`).
+- Filtro dinámico de usuarios.
+- Interfaz construida con React Router.
+- Estilos aplicados con Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura del Proyecto
+```
+src/
+├-- components/
+│   |--- SearchBar.jsx         # Es el que hace la función de búsquedad.
+│
+├-- contexts/
+│   |--- GlobalContext.jsx     # Contexto global que gestiona los datos de los usuarios
+│
+├-- pages/
+│   |--- Dashboard.jsx         # Página principal que muestra todos los datos de los usuarios
+│
+|---services/
+│   |--- api.js                # Archivo para escribir los datos de los usuarios
+│
+|--- App.jsx                   # Enrutador principal envuelto con el Provider
+|--- index.css                 # Estilos globales
+|--- main.jsx                  # Punto de entrada de la app
+```
+
+## Instalación y Ejecución
+1. Clona este repositorio:
+```
+git clone https://github.com/Cristian1492/MiAppi.git
+```
+
+2. Instala las dependencias:
+```
+npm install
+```
+
+3. Ejecuta el proyecto:
+```
+npm run dev
+```
+
+## Link de ingreso a netlify 
+'''
+cristian1492-miappi.netlify.app
+
+Este es el taller con el fin de realizar un dashboard interactivo.
