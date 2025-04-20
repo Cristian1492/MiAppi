@@ -14,7 +14,7 @@ MiAppi es una aplicación en React que se utilizó Context API para manejar el e
 - Estilos aplicados con Tailwind CSS.
 - 
 ## Link de ingreso a netlify 
-cristian1492-miappi.netlify.app
+htpps://cristian1492-miappi.netlify.app
 
 ## Estructura del Proyecto
 src/
