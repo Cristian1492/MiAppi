@@ -1,4 +1,3 @@
-
 # MiAppi - Taller React + vite con tailwindcss
 
 ## Realizado por:
@@ -13,9 +12,11 @@ MiAppi es una aplicación en React que se utilizó Context API para manejar el e
 - Filtro dinámico de usuarios.
 - Interfaz construida con React Router.
 - Estilos aplicados con Tailwind CSS.
+- 
+## Link de ingreso a netlify 
+cristian1492-miappi.netlify.app
 
 ## Estructura del Proyecto
-```
 src/
 ├-- components/
 │   |--- SearchBar.jsx         # Es el que hace la función de búsquedad.
@@ -36,22 +37,12 @@ src/
 
 ## Instalación y Ejecución
 1. Clona este repositorio:
-```
 git clone https://github.com/Cristian1492/MiAppi.git
-```
 
 2. Instala las dependencias:
-```
 npm install
-```
 
 3. Ejecuta el proyecto:
-```
 npm run dev
-```
-
-## Link de ingreso a netlify 
-'''
-cristian1492-miappi.netlify.app
 
 Este es el taller con el fin de realizar un dashboard interactivo.
